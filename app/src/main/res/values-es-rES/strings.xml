@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">Recordatorio de Compras</string>
     <string name="product_field">Producto: </string>
-    <string name="product_field_hint">Nombre del producto: </string>
+    <string name="product_field_hint">Nombre del producto </string>
     <string name="quantity_field">La cantidad: </string>
     <string name="quantity_field_hint">Número </string>
     <string name="super_market_spinner">Supermercado </string>

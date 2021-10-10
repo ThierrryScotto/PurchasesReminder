@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">Purchases Reminder</string>
     <string name="product_field">Product: </string>
-    <string name="product_field_hint">Product name: </string>
+    <string name="product_field_hint">Product name </string>
     <string name="quantity_field">Quantity: </string>
     <string name="quantity_field_hint">Number </string>
     <string name="super_market_spinner">Super Market </string>
