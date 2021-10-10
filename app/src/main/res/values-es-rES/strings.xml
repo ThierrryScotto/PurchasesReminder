@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Recordatorio de Compras</string>
+    <string name="product_field">Producto: </string>
+    <string name="product_field_hint">Nombre del producto </string>
+    <string name="quantity_field">La cantidad: </string>
+    <string name="quantity_field_hint">Número </string>
+    <string name="super_market_spinner">Supermercado </string>
+    <string name="form_payment">Forma de pago: </string>
+    <string name="credit_card">Tarjeta de crédito </string>
+    <string name="pix">PIX </string>
+    <string name="money">Dinero </string>
+    <string name="save_button">Ahorrar </string>
+
+    <string-array name="spiner_field">
+        <item>Seleccione...</item>
+        <item>Carrefour</item>
+        <item>Carbone</item>
+        <item>Big</item>
+    </string-array>
+</resources>

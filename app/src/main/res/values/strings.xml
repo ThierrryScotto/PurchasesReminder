@@ -1,3 +1,20 @@
 <resources>
-    <string name="app_name">PurchasesReminder</string>
+    <string name="app_name">Purchases Reminder</string>
+    <string name="product_field">Product: </string>
+    <string name="product_field_hint">Product name </string>
+    <string name="quantity_field">Quantity: </string>
+    <string name="quantity_field_hint">Number </string>
+    <string name="super_market_spinner">Super Market </string>
+    <string name="form_payment">Form of payment: </string>
+    <string name="credit_card">Credit Card </string>
+    <string name="pix">PIX </string>
+    <string name="money">Money </string>
+    <string name="save_button">Save </string>
+
+    <string-array name="spiner_field">
+        <item>Select...</item>
+        <item>Carrefour</item>
+        <item>Carbone</item>
+        <item>Big</item>
+    </string-array>
 </resources>

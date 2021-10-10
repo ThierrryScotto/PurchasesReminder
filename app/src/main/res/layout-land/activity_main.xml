@@ -26,18 +26,25 @@
             android:orientation="vertical"
             android:layout_margin="30dp">
 
-            <TextView
+            <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/product_field"
-                style="@style/PurchasesReminder"/>
+                android:layout_height="wrap_content">
 
-            <EditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textColor="#090214"
-                android:hint="@string/product_field_hint"
-                android:textSize="20dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/product_field"
+                    style="@style/PurchasesReminder"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#090214"
+                    android:hint="@string/product_field_hint"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="20dp"/>
+
+            </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -62,17 +69,26 @@
 
             </LinearLayout>
 
-            <TextView
+            <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/super_market_spinner"
-                android:layout_marginTop="15dp"
-                style="@style/PurchasesReminder"/>
+                android:layout_height="wrap_content">
 
-            <Spinner
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:entries="@array/spiner_field"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/super_market_spinner"
+                    android:layout_marginTop="15dp"
+                    style="@style/PurchasesReminder"/>
+
+                <Spinner
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:entries="@array/spiner_field"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="3dp"
+                    android:scrollbarSize="30dp"/>
+
+            </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -84,7 +100,6 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/form_payment"
-                    android:layout_marginTop="10dp"
                     style="@style/PurchasesReminder"/>
 
                 <RadioGroup

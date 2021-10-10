@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Lembrete de compras</string>
+    <string name="product_field">Produto: </string>
+    <string name="product_field_hint">Nome do produto </string>
+    <string name="quantity_field">Quantidade: </string>
+    <string name="quantity_field_hint">Numero </string>
+    <string name="super_market_spinner">Super mercado </string>
+    <string name="form_payment">Forma de pagamento: </string>
+    <string name="credit_card">Cartão de Credito </string>
+    <string name="pix">PIX </string>
+    <string name="money">Dinheiro </string>
+    <string name="save_button">Salvar </string>
+
+    <string-array name="spiner_field">
+        <item>Selecione...</item>
+        <item>Carrefour</item>
+        <item>Carbone</item>
+        <item>Big</item>
+    </string-array>
+</resources>
